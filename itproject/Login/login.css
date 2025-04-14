@@ -1,0 +1,72 @@
+body {
+    background-image: url("../img/body.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    background-color: grey;
+    padding: 10px 20px;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.container-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 350px;
+    margin: 20px;
+}
+
+.btn-login {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-login:hover {
+    background-color: #218838;
+}
+
+.link {
+    display: block;
+    margin-top: 10px;
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Additional Styling for Responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px;
+    }
+
+    .container-box {
+        width: 90%;
+        max-width: 400px;
+    }
+}

@@ -1,0 +1,6 @@
+.bg-semi-transparent {
+    background-color: rgb(255, 255, 255); /* Black background with 10% opacity */
+    padding: 20px;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+}

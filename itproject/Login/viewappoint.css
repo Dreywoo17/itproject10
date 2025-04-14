@@ -1,0 +1,64 @@
+body {
+    background: url("../img/body.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: maroon;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    text-decoration: underline;
+    color: #ffcccb !important;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1); 
+}
+
+.container3 {
+    margin-top: 5%;
+    background-color: rgba(255, 255, 255, 0.95); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px; 
+    text-align: center;
+}
+
+.table th {
+    background-color: #f8f9fa;
+}
+
+.btn-danger {
+    background-color: maroon;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-danger:hover {
+    background-color: darkred;
+}
+
+@media (max-width: 768px) {
+    .container3 {
+        width: 100%;
+        margin-top: 10%;
+    }
+}
